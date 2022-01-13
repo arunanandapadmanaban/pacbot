@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "",
+      "type": "com.tmobile.pacman.api.admin.config.PacmanConfiguration"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.GlobalConfig",
+      "name": "compliance-service",
+      "type": "com.tmobile.pacman.api.admin.config.GlobalConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "admin",
+      "type": "com.tmobile.pacman.api.admin.domain.AdminProperty"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "aws",
+      "type": "com.tmobile.pacman.api.admin.domain.AWSCredentials"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "elastic-search",
+      "type": "com.tmobile.pacman.api.admin.domain.ElasticSearchProperty"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "job",
+      "type": "com.tmobile.pacman.api.admin.domain.JobProperty"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "rule",
+      "type": "com.tmobile.pacman.api.admin.domain.RuleProperty"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "security",
+      "type": "com.tmobile.pacman.api.admin.domain.SecurityProperty"
+    },
+    {
+      "sourceType": "com.tmobile.pacman.api.admin.config.PacmanConfiguration",
+      "name": "target-types",
+      "type": "com.tmobile.pacman.api.admin.domain.TargetTypesProperty"
+    }
+  ]
+}
